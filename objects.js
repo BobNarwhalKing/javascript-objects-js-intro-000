@@ -1,8 +1,8 @@
 var playlist = new Object({Darude: "Sandstorm"})
 
-function updatePlaylist (playlist, artisName, songTitle) {
+function updatePlaylist (playlist, artistName, songTitle) {
   return playlist[artisName] = songTitle
 }
-function removeFromPlaylist (playlist, artisName) {
+function removeFromPlaylist (playlist, artistName) {
   return delete playlist.artistName
 }
